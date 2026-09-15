@@ -1,0 +1,19 @@
+#game {
+    border: 1px solid black;
+    float: left;
+}
+
+#buttonStart,
+#buttonSrop,
+#buttonScore {
+    color: seagreen;
+    margin: 10vh;
+    padding: 2vh;
+    font-size: 30px;
+    width: 15vw;
+}
+
+#lableScore {
+    color: crimson;
+    font-size: 3.5vh;
+}

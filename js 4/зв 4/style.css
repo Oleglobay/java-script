@@ -1,0 +1,14 @@
+.fast{
+width:120px;
+height:120px;
+float:left;
+padding-right:50px;
+border-right:4px dotted #f0f;
+margin-right:10px;
+}
+.rtc{
+color:green;	
+}
+.rtg{
+color:red;
+}

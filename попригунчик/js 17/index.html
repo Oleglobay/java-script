@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+
+<canvas id="c1"  width="400"  height="200" ></canvas>
+
+
+
+<br>
+<p>Колоір - <input type="color" value="" onchange="colorSet(this)" id="colorInput" ></p>
+
+<br>
+<p>Розмір - <input type="number" value = "3" min="1" max="50" onchange="sizeSet(this)" id="sizeInput"></p>
+
+<br>
+
+<p>Тип лінії - 
+	<select id="form" onchange ="typeSet(this)">
+	   <option value="butt" name="value" >butt</option>
+	   <option value="round" name="value" >round</option>
+	   <option value="square" name="value" >square</option>
+	</select>
+</p>
+
+
+
+
+<br>
+<input type="button" name="" value="Очистити" onclick="clearCanvas()">
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+.a{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	border-radius:50%;
+}
+#b1{
+	background-color: red;
+	color:red;
+	border: 1px solid red;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+#aaa{
+	color:white;
+	position: absolute;
+	left:30px;
+	top:80px;
+	font-family: helvetica;
+}

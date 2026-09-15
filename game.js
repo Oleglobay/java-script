@@ -1,0 +1,165 @@
+function draw() {
+
+			var canvas = document.getElementById('id1');
+			var ctx = canvas.getContext('2d');
+			
+			ctx.strokeRect(150, 370, 100, 75);
+			
+			ctx.beginPath();
+			ctx.moveTo(500,445);
+			ctx.lineTo(0,445);
+			ctx.stroke();	
+			
+			ctx.beginPath();
+			ctx.moveTo(260,370);
+			ctx.lineTo(140,370);
+			ctx.stroke();	
+			
+			ctx.beginPath();
+			ctx.moveTo(260,370);
+			ctx.lineTo(200,300);
+			ctx.stroke();	
+			
+			ctx.beginPath();
+			ctx.moveTo(140,370);
+			ctx.lineTo(200,300);
+			ctx.stroke();
+
+            ctx.beginPath();
+			ctx.moveTo(220,445);
+			ctx.lineTo(220,410);
+			ctx.stroke();
+
+            ctx.beginPath();
+			ctx.moveTo(240,445);
+			ctx.lineTo(240,410);
+			ctx.stroke();
+
+			ctx.beginPath();
+			ctx.moveTo(220,410);
+			ctx.lineTo(240,410);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(235,425);
+			ctx.lineTo(235,435);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(160,385);
+			ctx.lineTo(190,385);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(160,410);
+			ctx.lineTo(190,410);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(190,385);
+			ctx.lineTo(190,410);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(160,385);
+			ctx.lineTo(160,410);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(175,385);
+			ctx.lineTo(175,410);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(160,398);
+			ctx.lineTo(190,398);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(160,348);
+			ctx.lineTo(160,318);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(160,318);
+			ctx.lineTo(175,318);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(175,318);
+			ctx.lineTo(175,328);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(0,420);
+			ctx.lineTo(150,420);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(0,428);
+			ctx.lineTo(150,428);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(0,437);
+			ctx.lineTo(150,437);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(10,415);
+			ctx.lineTo(10,445);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(30,415);
+			ctx.lineTo(30,445);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(50,415);
+			ctx.lineTo(50,445);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(70,415);
+			ctx.lineTo(70,445);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(90,415);
+			ctx.lineTo(90,445);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(110,415);
+			ctx.lineTo(110,445);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(130,415);
+			ctx.lineTo(130,445);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(260,415);
+			ctx.lineTo(263,431);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(260,431);
+			ctx.lineTo(276,431);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(274,445);
+			ctx.lineTo(274,431);
+			ctx.stroke();
+			
+			ctx.beginPath();
+			ctx.moveTo(264,445);
+			ctx.lineTo(264,431);
+			ctx.stroke();
+}
+
+
+

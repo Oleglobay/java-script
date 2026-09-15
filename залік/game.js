@@ -1,0 +1,11 @@
+function draw() {
+			var canvas = document.getElementById('id1');
+			var ctx = canvas.getContext('2d');
+			
+			
+			
+			
+			
+			
+			
+}

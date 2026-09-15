@@ -1,0 +1,4 @@
+
+s=secondsInAMinute*hoursInADay
+s=secondsInAMinute*daysInAYear
+s=secondsInAMinute*age

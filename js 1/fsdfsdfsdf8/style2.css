@@ -1,0 +1,130 @@
+.rm{
+	height: 25px;
+	width: 155px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 30px;
+	left: 6px;
+}
+.bc{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 175px;
+	left: 6px;
+}
+.brav{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 175px;
+	left: 80px;
+}
+.b0{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 175px;
+	left: 40px;
+}
+.b1{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 135px;
+	left: 6px;
+}
+.b2{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 135px;
+	left: 40px;
+}
+.b3{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 135px;
+	left: 80px;
+}
+.b4{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 95px;
+	left: 6px;
+}
+.b5{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 95px;
+	left: 40px;
+}
+.b6{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 95px;
+	left: 80px;
+}
+.b7{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 55px;
+	left: 6px;
+}
+.b8{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 55px;
+	left: 40px;
+}
+.b9{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 55px;
+	left: 80px;
+}
+.bplus{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 55px;
+	left: 120px;
+}
+
+.a{
+	width: 150px;
+}

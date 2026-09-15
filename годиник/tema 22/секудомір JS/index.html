@@ -1,0 +1,100 @@
+<!-- <html>
+    <head>
+        <title>Таймер</title>
+        <script type="text/javascript">
+            var sec;
+            var min;
+            var hour;
+
+            var intervalId = null;
+
+            function init()
+            {
+                clearInterval(intervalId);
+                intervalId = setInterval(tick, 1000);
+
+                sec = 0;
+                min = 0;
+                hour = 0;
+            }
+            
+            function tick()
+            {
+                sec++;
+                if(sec>=60){
+                   min++; 
+                   sec = 0;   
+                }
+                if(min>=60){
+                    hour++;
+                    min =0;
+                }
+                document.getElementById("timer").innerHTML= hour + ":" + min + ":" + sec;
+            }
+        </script>
+    </head>
+    <body >
+        <div id="timer">0</div>
+        <input type="button" value="Старт/Онулити" onclick="init()">
+    </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>game</title>
+<meta charset="utf-8">
+<!-- <link href="sec.css" rel="stylesheet"> -->
+<script  defer>
+var sec = 0;
+var min = 0;
+var hour = 0;
+
+
+
+var intervalId = null;
+
+
+function init(){
+
+clearInterval(intervalId);
+intervalId = setInterval(tick, 1000);
+
+sec = 0;
+min = 0;
+hour = 0;
+}
+
+
+function tick(){
+sec++;
+
+if(sec>=60){
+min++;
+sec = 0;
+}
+
+if(min>=60){
+hour++;
+min = 0;
+}
+document.getElementById("timer").innerHTML = hour + ":" + min + ":" + sec + ".";
+}
+</script>
+</head>
+<body>
+<div class="container">
+<div id="timer">
+<input type="button" value= "Старт/Онулити" onclick="init()">
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

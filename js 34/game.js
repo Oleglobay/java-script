@@ -1,0 +1,112 @@
+var interval; 
+
+
+function clickStart() {
+    interval = setInterval(gameSnake, 60);
+}
+
+
+function clickStop() {
+    clearInterval(interval);
+
+let scope = 0; 
+var scopeHTML = document.getElementById("lableScore");
+
+
+var apple = new Eat("1200px-Apple_logo_black.svg.png");
+}
+function rand(min, max) {
+    k = Math.floor(Math.random() * (max - min) + min);
+    return (Math.round(k / s) * s);
+}
+
+function newA() {
+    a = [rand(0, innerWidth), rand(0, innerHeight)];
+}
+
+function newB() { sBody = [{ x: 0, y: 0 }]; }
+
+var gP = document.getElementById('game'), 
+    g = gP.getContext('2d'), 
+    sBody = null, 
+    d = 1, 
+    a = null, 
+    s = 30;
+newB();
+
+gP.width = 600;
+gP.height = 600;
+
+function gameSnake() {
+     g.clearRect(0, 0, gP.width, gP.height);   
+    g.fillStyle = "red"; 
+    apple.draw(g, s);
+    g.fillStyle = "#000"; 
+
+    sBody.forEach(function(el, i) {
+
+        
+        var last = sBody.length - 1;
+        if (el.x == sBody[last].x && el.y == sBody[last].y && i < last) {
+            sBody.splice(0, last); 
+            scope = 0;
+            scopeHTML.innerHTML = "Scope : " + scope;
+            sBody = [{ x: 0, y: 0 }]; 
+            d = 1;
+        }
+
+    });
+
+   
+    var m = sBody[0],
+        f = { x: m.x, y: m.y },
+        l = sBody[sBody.length - 1];
+
+    
+    if (d == 1) f.x = l.x + s, f.y = Math.round(l.y / s) * s;
+    if (d == 2) f.y = l.y + s, f.x = Math.round(l.x / s) * s;
+    if (d == 3) f.x = l.x - s, f.y = Math.round(l.y / s) * s;
+    if (d == 4) f.y = l.y - s, f.x = Math.round(l.x / s) * s;
+
+    sBody.push(f); 
+    sBody.splice(0, 1); 
+
+   
+    sBody.forEach(function(pob, i) {
+      
+        if (d == 1)
+            if (pob.x > Math.round((gP.width - 30) / s) * s) pob.x = 0;
+        if (d == 2)
+            if (pob.y > Math.round((gP.height - 30) / s) * s) pob.y = 0;
+        if (d == 3)
+            if (pob.x < 0) pob.x = Math.round(gP.width / s) * s;
+        if (d == 4)
+            if (pob.y < 0) pob.y = Math.round(gP.height / s) * s;
+
+       
+        if (pob.x == apple.getX() && pob.y == apple.getX()) {
+            apple.newA(gP.width, gP.height), sBody.unshift({ x: f.x - s, y: l.y });
+            scope++;
+            scopeHTML.innerHTML = "Scope : " + scope;
+        }
+
+        console.log(sBody.length);
+        if (sBody.length - 1 == i) {
+            g.fillStyle = "#0F0"; 
+            g.fillRect(pob.x + 1, pob.y + 1, s - 2, s - 2);
+        } else {
+            g.fillStyle = "#000"; 
+            g.fillRect(pob.x + 1, pob.y + 1, s - 2, s - 2);
+        }
+    });
+
+}
+
+onkeydown = function(e) {
+    var k = e.keyCode;
+    if ([38, 39, 40, 37].indexOf(k) >= 0) e.preventDefault();
+    if (k == 39 && d != 3) d = 1; 
+    if (k == 40 && d != 4) d = 2; 
+    if (k == 37 && d != 1) d = 3; 
+    if (k == 38 && d != 2) d = 4; 
+};

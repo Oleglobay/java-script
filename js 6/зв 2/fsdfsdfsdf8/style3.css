@@ -1,0 +1,30 @@
+
+.bm{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 95px;
+	left: 120px;
+}
+
+.bmn{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 135px;
+	left: 120px;
+
+}
+#aa{
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	color: green;
+	position: absolute;
+	top: 175px;
+	left: 120px;
+}

@@ -1,0 +1,53 @@
+
+body {
+  background-color: #FFF;
+}
+.actions {
+  text-align: center;
+}
+.container {
+  margin: 50px auto;
+  width: 300px;
+}
+.cell {
+  background-color: white;
+  border: 2px solid green;
+  float: left;
+  height: 96px;
+  width: 96px;
+}
+.cell:hover {
+  border-color: red;
+}
+.player {
+ background-image: url('./img/player.jpg');
+}
+.ai {
+
+  background-image: url('./img/ai.jpg');
+}
+
+/*div{
+  background:black;
+  width:100px;
+  height:100px;
+  animation: span-4 4s ease-in-out infinite;
+}
+@keyframes span-4 {
+  0%{
+    transform:translate(0);
+    border-radius:0%;
+  }
+  33%{
+    transform:translate(50px, 50px);
+  }
+  66%{
+  
+    background:#00E4F6;
+    border-radius:50%;
+      transform:translate(100px,   0px);
+  }
+  100%{
+    transform:translate(0);
+     border-radius:0%
+  }}*/

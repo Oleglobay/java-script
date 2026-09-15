@@ -1,0 +1,10 @@
+	document.getElementById("myspan2").innerHTML = animals[1].name;
+	document.getElementById("myspan3").innerHTML = animals[2].name;
+	document.getElementById("myspan4").innerHTML = animals[3].name;
+	document.getElementById("myspan5").innerHTML = animals[4].name;
+	
+	document.getElementById("myspan6").innerHTML = animals[0].age;
+	document.getElementById("myspan7").innerHTML = animals[1].age;
+	document.getElementById("myspan8").innerHTML = animals[2].age;
+	document.getElementById("myspan9").innerHTML = animals[3].age;
+	document.getElementById("myspan10").innerHTML = animals[4].age;

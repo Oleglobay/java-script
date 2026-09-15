@@ -1,0 +1,156 @@
+function draw() {
+			var canvas = document.getElementById('id1');
+			var ctx = canvas.getContext('2d');
+			ctx.beginPath();
+			ctx.moveTo(50,25);
+			ctx.lineTo(150,25);
+			ctx.stroke();	
+			var canvas = document.getElementById('id2');
+			var ctx = canvas.getContext('2d');
+			ctx.beginPath();
+			ctx.moveTo(50,75);
+			ctx.lineTo(150,25);
+			ctx.stroke();	
+			var canvas = document.getElementById('id3');
+			var ctx = canvas.getContext('2d');
+			ctx.beginPath();
+			ctx.moveTo(50,50);
+			ctx.lineTo(150,50);
+			ctx.moveTo(50,50);
+			ctx.lineTo(100,100);
+			ctx.lineTo(150,50);
+			ctx.stroke();
+			var canvas = document.getElementById('id4');
+			var ctx = canvas.getContext('2d');
+			ctx.fillRect(50, 75, 100, 100);
+			 ctx.moveTo(50,75);
+             ctx.lineTo(100,25);
+			 ctx.moveTo(100,25);
+			 ctx.lineTo(150,75);
+             ctx.stroke();
+			var canvas = document.getElementById('id5');
+			var ctx = canvas.getContext('2d');
+			ctx.beginPath();
+			ctx.moveTo(25, 125);
+			ctx.lineTo(75, 175);
+			ctx.lineTo(125, 175);
+			ctx.lineTo(175, 125);
+			ctx.lineTo(175, 75);
+			ctx.lineTo(125, 25);
+			ctx.lineTo(75, 25);
+			ctx.lineTo(25, 75);
+			ctx.lineTo(25, 125);
+			ctx.stroke();
+			var canvas = document.getElementById('id6');
+			var ctx = canvas.getContext('2d');
+			ctx.beginPath();
+			ctx.moveTo(50,50);
+            ctx.lineTo(100,100);
+	        ctx.lineTo(150, 50);
+			ctx.stroke();
+			ctx.beginPath();
+            ctx.moveTo(100,100);
+			ctx.lineTo(50,150);
+			ctx.lineTo(150,150);
+			ctx.lineTo(100,100);
+		    ctx.fill();	
+			var canvas = document.getElementById('id7');
+			var ctx = canvas.getContext('2d');
+			ctx.beginPath();
+			ctx.moveTo(20,20);
+		    ctx.lineTo(175, 20);
+			ctx.moveTo(20,30);
+		    ctx.lineTo(175, 30);
+			ctx.moveTo(20,40);
+		    ctx.lineTo(175, 40);
+			ctx.moveTo(20,50);
+		    ctx.lineTo(175, 50);
+			ctx.moveTo(20,60);
+		    ctx.lineTo(175, 60);
+			ctx.moveTo(20,70);
+		    ctx.lineTo(175, 70);
+			ctx.moveTo(20,80);
+		    ctx.lineTo(175, 80);
+			ctx.moveTo(20,90);
+		    ctx.lineTo(175, 90);
+			ctx.moveTo(20,100);
+		    ctx.lineTo(175, 100);
+			ctx.moveTo(20,110);
+		    ctx.lineTo(175, 110);
+			ctx.moveTo(20,120);
+		    ctx.lineTo(175, 120);
+			ctx.moveTo(20,130);
+		    ctx.lineTo(175, 130);
+			ctx.moveTo(20,140);
+		    ctx.lineTo(175, 140);
+			ctx.moveTo(20,150);
+		    ctx.lineTo(175, 150);
+			ctx.moveTo(20,160);
+		    ctx.lineTo(175, 160);
+			ctx.moveTo(20,170);
+		    ctx.lineTo(175, 170);
+			ctx.moveTo(20,180);
+		    ctx.lineTo(175, 180);
+			ctx.stroke();	
+			var canvas = document.getElementById('id8');
+			var ctx = canvas.getContext('2d');
+			ctx.beginPath();
+			ctx.moveTo(20,20);
+		    ctx.lineTo(20, 125);
+			ctx.moveTo(20,20);
+            ctx.lineTo(125, 20);
+			ctx.lineTo(20, 125);
+			ctx.fill();
+			ctx.beginPath();
+			ctx.moveTo(150,40);
+			ctx.lineTo(40, 150);
+			ctx.moveTo(150,40);
+			ctx.lineTo(150, 150);
+			ctx.moveTo(150,150);
+			ctx.lineTo(40,150);
+			ctx.stroke();
+			var canvas = document.getElementById('id9');
+			var ctx = canvas.getContext('2d');
+				ctx.strokeRect(30, 40, 50, 25);
+			
+			ctx.beginPath();
+			ctx.moveTo(60,40);
+			ctx.lineTo(85,20);
+			ctx.moveTo(85,20);
+		    ctx.lineTo(135, 20);
+			ctx.moveTo(110,40);
+			ctx.lineTo(135,20);
+			ctx.moveTo(60,40);
+			ctx.lineTo(110,40);
+			
+		    ctx.moveTo(80,120);
+			ctx.lineTo(80,50);
+			ctx.moveTo(80,120);
+			ctx.lineTo(160,120);
+			ctx.lineTo(80,50);
+			ctx.moveTo(80,120);
+			ctx.lineTo(160,120);
+			ctx.lineTo(160,190);
+			ctx.lineTo(80,120);
+			
+			ctx.moveTo(80,140);
+			ctx.lineTo(40,110);
+			ctx.lineTo(80,80);
+			ctx.lineTo(80,140);
+			
+			ctx.moveTo(160,190);
+			ctx.lineTo(110,190);
+			ctx.lineTo(139,170);
+			ctx.lineTo(80,170);
+			ctx.lineTo(110,190);
+			
+			ctx.stroke();
+			
+			
+			
+			
+			
+
+ }
+ 
+

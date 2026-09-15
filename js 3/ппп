@@ -1,0 +1,3 @@
+<p>в) <span id="myspan2"></span></p>
+s=strN111
+document.getElementById("myspan2").innerHTML = s;
